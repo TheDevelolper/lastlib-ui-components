@@ -27,7 +27,7 @@ const MyComponent$1 = /*@__PURE__*/ proxyCustomElement(class MyComponent extends
         return format(this.first, this.middle, this.last);
     }
     render() {
-        return h("div", { key: '8922bcc5693180fdcb6c15d0e1fe038e4c21deb8' }, "Hello, World! I'm ", this.getText());
+        return h("div", { key: '5e71247f8c2a546c1390c0744c26200472756bbe' }, "Hello, World! I'm ", this.getText());
     }
     static get style() { return myComponentCss(); }
 }, [513, "my-component", {

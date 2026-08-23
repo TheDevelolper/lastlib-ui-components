@@ -5,6 +5,7 @@ import { reactOutputTarget } from '@stencil/react-output-target';
 export const config: Config = {
   namespace: 'lastlib-ui-components',
   buildDist: true,
+  globalStyle: 'src/global/tailwind.generated.css',
   outputTargets: [
     {
       type: 'dist',

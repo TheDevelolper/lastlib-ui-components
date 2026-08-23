@@ -8,13 +8,12 @@ const LastlibButton$1 = /*@__PURE__*/ proxyCustomElement(class LastlibButton ext
         if (registerHost !== false) {
             this.__registerHost();
         }
-        this.__attachShadow();
     }
     render() {
-        return (h(Host, { key: '9fcc01fb5a376d0ca5669eb710f86a5c4a7dc1bc' }, h("button", { key: 'b90f64c796c4ac21b0720e03db3b889a4bc510fc' }, h("slot", { key: 'd8b2612859812ad6ccfe19a055b51d41236bb317' }))));
+        return (h(Host, { key: '6a6772a4eca6dd17f7f124b9034996e596195b10' }, h("button", { key: '577db39710a71b8179e27457fab8a5dd5fd6ad2a', type: "button", class: "text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none" }, h("slot", { key: '5a221055e853675e8a0d713b4a8a31dc78fbe6fe' }))));
     }
     static get style() { return lastlibButtonCss(); }
-}, [257, "lastlib-button"]);
+}, [260, "lastlib-button"]);
 function defineCustomElement$1() {
     if (typeof customElements === "undefined") {
         return;
