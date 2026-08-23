@@ -13,7 +13,6 @@ import React from 'react';
 
 import type { Components } from "lastlib-ui-components/dist-custom-elements";
 import { LastlibButton as LastlibButtonElement, defineCustomElement as defineLastlibButton } from "lastlib-ui-components/dist-custom-elements/lastlib-button.js";
-import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "lastlib-ui-components/dist-custom-elements/my-component.js";
 
 export type LastlibButtonEvents = NonNullable<unknown>;
 
@@ -24,15 +23,4 @@ export const LastlibButton: StencilReactComponent<LastlibButtonElement, LastlibB
     react: React,
     events: {} as LastlibButtonEvents,
     defineCustomElement: defineLastlibButton
-});
-
-export type MyComponentEvents = NonNullable<unknown>;
-
-export const MyComponent: StencilReactComponent<MyComponentElement, MyComponentEvents, Components.MyComponent> = /*@__PURE__*/ createComponent<MyComponentElement, MyComponentEvents, Components.MyComponent>({
-    tagName: 'my-component',
-    elementClass: MyComponentElement,
-    // @ts-ignore - ignore potential React type mismatches between the Stencil Output Target and your project.
-    react: React,
-    events: {} as MyComponentEvents,
-    defineCustomElement: defineMyComponent
 });
