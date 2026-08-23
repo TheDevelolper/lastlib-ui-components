@@ -11,7 +11,7 @@ const LastlibButton$1 = /*@__PURE__*/ proxyCustomElement(class LastlibButton ext
         this.__attachShadow();
     }
     render() {
-        return (h(Host, { key: '166e997f3220e56357ea60b5be069e2445035b3a' }, h("button", { key: '8fadd3fa78cda9b252250ee6a3cf9fb2ae46781d' }, h("slot", { key: '7a862ff7b2ee79e8c227ba687ff866527506e76c' }))));
+        return (h(Host, { key: '9fcc01fb5a376d0ca5669eb710f86a5c4a7dc1bc' }, h("button", { key: 'b90f64c796c4ac21b0720e03db3b889a4bc510fc' }, h("slot", { key: 'd8b2612859812ad6ccfe19a055b51d41236bb317' }))));
     }
     static get style() { return lastlibButtonCss(); }
 }, [257, "lastlib-button"]);
