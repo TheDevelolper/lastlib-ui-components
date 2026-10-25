@@ -61,7 +61,7 @@
     "lit": "^3.3.3",
     "playwright": "^1.52.0",
     "postcss": "^8.5.26",
-    "storybook": "^10.5.10",
+    "storybook": "^10.6.2",
     "tailwindcss": "^4.3.3",
     "vitest": "^4.0.0"
   },
